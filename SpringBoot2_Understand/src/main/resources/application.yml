@@ -1,0 +1,38 @@
+server:
+  port: 8888
+
+person:
+  username: 陈苏洲
+  boss: true
+  birth: 2000/11/22
+  age: 22
+  pet:
+    name: tomcat
+    weight: 10
+#  数组类型就使用[...] 或 下面的写法
+  interests: [唱,跳,rap,篮球]
+#  interests:
+#    - 唱
+#    - 跳
+#    - rap
+#    - 篮球
+#  List类型和数组类型一个写法
+#  animal: [cat,dog,pig]
+  animal:
+    - cat
+    - dog
+    - pig
+#  Set类型同数组和List类型
+  salary: [3999,4999.98,5999.99]
+#  Map类型的写法：
+  score:
+    english: 30
+    math: 131
+    chinese: 136
+  allPets:
+    sick:
+      - { name: tom,weight: 88}
+      - { name: jerry,weight: 47 }
+    health: [ { name: mario,weight: 47 } ]
+
+

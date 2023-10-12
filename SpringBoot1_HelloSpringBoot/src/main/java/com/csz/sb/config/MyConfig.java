@@ -3,7 +3,6 @@ package com.csz.sb.config;
 import ch.qos.logback.classic.db.DBHelper;
 import com.csz.sb.entity.Pet;
 import com.csz.sb.entity.User;
-import org.springframework.boot.autoconfigure.condition.ConditionalOnBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
